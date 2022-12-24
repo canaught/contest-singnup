@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Illuminati</title>
+  </head>
+
+  <body>
+    <h1>We are Illuminati...</h1>
+    <div class="container">
+      <nav class="navbar">
+        <h1 class="illu">Humse juud jayiye,</h1>
+      </nav>
+      <div class="input-form">
+        <ul>
+          <li>
+            <caption>
+              What people call you......
+            </caption>
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="username"
+              placeholder="Uchiha Madara"
+              required
+            />
+          </li>
+          <li>
+            <caption>
+              Email
+            </caption>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="usermail"
+              placeholder="Madara@naruto.com"
+              required
+            />
+          </li>
+          <li>
+            <caption>
+              Password
+            </caption>
+            <br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="the_Longer_you_Live...."
+              required
+            />
+          </li>
+          <li>
+            <caption>
+              Day you cried first time.....
+            </caption>
+            <br />
+            <input type="date" name="dob" id="dob" required />
+          </li>
+          <li id="message"></li>
+          <li>
+            <button type="submit" onclick="createUser()">Sign me up..</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Illuminati</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="illu">Illuminati Welcomes you,</div>
+        <div class="navlinks">
+            <ul>
+                <li><a href="index.html" target="_blank" id="signup_btn"></a></li>
+                <li><a href="index.html" target="_self" onclick="logout()">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="heading"> Welcome home,&nbsp;&nbsp;<span class="wlcm-usrnm" id="username"></span></h1>
+        <table>
+            <tr>
+                <td>Full Name :</td> 
+                <td id="fullname"></td>
+            </tr>
+            <tr>
+                <td>Email :</td> 
+                <td id = "email"></td>
+            </tr>
+            <tr>
+                <td>Password :</td> 
+                <td id="pwd"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth : </td> 
+                <td id="dob"></td>
+            </tr>
+            
+        </table>
+    </div>
+    <script src="./script2.js"></script>
+  </body>
+</html>
